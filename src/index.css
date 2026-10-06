@@ -1,0 +1,98 @@
+@import "tailwindcss";
+
+:root {
+  --ink: #071126;
+  --blue: #173b85;
+  --blue-hover: #102a63;
+  --gold: #a66a18;
+  --gold-hover: #8c560e;
+  --gold-tint: #fbf6ee;
+  --ivory: #f8f7f4;
+  --surface: #ffffff;
+  --muted: #5a6478;
+  --muted-light: #838e9e;
+  --line: rgba(7, 17, 38, 0.08);
+  --line-strong: rgba(7, 17, 38, 0.16);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    color-scheme: light;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body {
+    background-color: var(--ivory);
+    color: var(--ink);
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    overflow-x: hidden;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Universal accessible keyboard focus ring */
+  :focus-visible {
+    outline: 2px solid var(--blue);
+    outline-offset: 2px;
+  }
+
+  /* Custom subtle light scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #f1efe9;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #d6d3c8;
+    border-radius: 3px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #aba696;
+  }
+
+  /* Selection highlight with burnished gold on warm ivory */
+  ::selection {
+    background-color: #f2e7d3;
+    color: #5a3a0a;
+  }
+}
+
+/* Typography utilities */
+.font-editorial {
+  font-family: 'Newsreader', Georgia, Cambria, 'Times New Roman', serif;
+  font-feature-settings: 'cv01', 'cv02', 'onum';
+}
+
+.font-sans-ui {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+/* Executive rule line */
+.editorial-rule {
+  height: 1px;
+  background-color: var(--line);
+}
+
+/* Safe area bottom padding for iPhone home indicator */
+.safe-area-pb {
+  padding-bottom: max(0.5rem, env(safe-area-inset-bottom, 0px));
+}
+
+/* Strict prefers-reduced-motion overrides for total accessibility */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

@@ -1,0 +1,79 @@
+# Erika Paola Morales Domínguez
+> Perfil Profesional Oficial: https://erikamorales.rauviaweb.mx/
+> Product Owner especializada en IA Generativa, Transformación de Negocio y Servicios Financieros.
+
+## Resumen Ejecutivo
+Erika Paola Morales Domínguez es una líder de producto y especialista en transformación de negocio con sede en Naucalpan, Estado de México. Se especializa en la adopción estratégica de Inteligencia Artificial Generativa y optimización de procesos dentro de la industria bancaria y aseguradora. Actualmente participa en el prestigioso programa Global Graduate de HSBC México dentro de International Wealth & Premier Banking (2024 - 2026).
+
+## Datos de Contacto y Presencia Web
+- Sitio Oficial: https://erikamorales.rauviaweb.mx/
+- Mapa de Relevancia Profesional: https://erikamorales.rauviaweb.mx/como-puedo-ayudarte/
+- Perspectiva Profesional & Criterio: https://erikamorales.rauviaweb.mx/perspectiva/
+- Correo Electrónico: erika.morales.domingu@gmail.com
+- Teléfono / WhatsApp: +52 55 2673 0054 (https://wa.me/525526730054)
+- Ubicación: Naucalpan, Estado de México, México
+- LinkedIn: https://www.linkedin.com/in/erika-morales-012b142a4/
+- Idiomas: Español (Nativo), Inglés (C1 - TOEFL ITP), Francés (B2)
+
+## Perspectiva Profesional (/perspectiva/)
+Filosofía de trabajo, marco de pensamiento y criterio cualitativo de Erika Morales:
+1. **Problemas ambiguos:** Descomposición analítica antes de apresurar soluciones. Separar el síntoma visible de la causa estructural escuchando a los usuarios en campo antes de comprometer capacidad de ingeniería. La claridad es el primer entregable que se construye con el negocio.
+2. **Articulación interdisciplinaria:** Traducción de incentivos opuestos entre Negocio, Ingeniería, Legal, Compliance, Riesgos y Usuarios. Alinear el vocabulario técnico y regulatorio con los objetivos estratégicos para generar corresponsabilidad.
+3. **Criterio de Producto:** Producto como generador de impacto medible, no como una fábrica de funcionalidades. Equilibrio disciplinado entre deseabilidad humana, viabilidad económica y factibilidad operativa. Priorización basada en simplificar lo esencial.
+4. **Adopción y Factor Humano:** La tecnología no se adopta por decreto institucional; se adopta cuando devuelve tiempo y reduce fricción en la jornada diaria. Importancia clave del trabajo de campo, pruebas UAT empáticas y la red de Champion Testers como embajadores orgánicos.
+5. **Criterio en IA Generativa:** Amplificación del especialista humano con supervisión ética. Guardrails funcionales estrictos, mitigación proactiva de alucinaciones y omisiones de datos, y justificación mediante business cases con retorno de inversión comprobable.
+6. **Innovación en Entornos Regulados:** La regulación no es un obstáculo tardío sino un parámetro fundamental de diseño desde el día cero. Involucrar a los comités de control institucional desde el descubrimiento protege la viabilidad del proyecto y consolida la confianza de la institución.
+7. **Visión Bancaria hacia 2030:** Transición hacia una banca predictiva y contextual asistida por agentes inteligentes. En un entorno donde la capacidad algorítmica se vuelve estándar, la confianza institucional, la ética y la empatía humana serán la principal ventaja competitiva duradera.
+
+## Mapa de Relevancia Profesional (/como-puedo-ayudarte/)
+Documento de articulación para proyectos de producto, tecnología y gobierno:
+1. **Oportunidad de IA no definida:** Estructuración de oportunidades desde la perspectiva de negocio, Product Discovery, User Research, Business Case y definición de KPIs.
+2. **Solución de IA hacia implementación:** Transición de iniciativas de IA Generativa hacia implementación: Roadmap, pruebas UAT, refinamiento de prompts funcionales, gobernanza regulatoria y preparación de pilotos comerciales.
+3. **Articulación Negocio, Tecnología y Gobierno:** Punto de enlace entre áreas comerciales, producto, desarrollo y órganos de control (Compliance, Riesgos, Legal, Fraude, Ciberseguridad).
+4. **Adopción y Gestión del Cambio:** Reducción de fricciones operativas mediante Champion Testers, entrenamiento, comunicación ejecutiva y métricas de adopción real.
+5. **Lanzamiento y Transformación de Propuestas de Negocio:** Estrategias de go-to-market, reposicionamiento de marca y coordinación comercial integral.
+
+## Logros e Impacto Cuantificable
+- ComAmplifier (GenAI): Lideró la implementación y adaptación local de una herramienta de IA Generativa para la fuerza de ventas de seguros HSBC Life (~90 usuarios en piloto comercial). Coordinó roadmap integral, UAT, mitigación de alucinaciones y gobernanza regulatoria.
+- Rebranding HSBC Life: Coordinó el go-to-market y despliegue integral de la marca en México, con alcance a más de 2.7 millones de clientes en canales físicos y digitales.
+- Crecimiento de Cartera: Participó en el lanzamiento de beneficios de Vida y Ahorro Dotal, logrando 200 pólizas colocadas en el primer mes.
+- Reconocimiento Global: Ganadora del HSBC Sustainability Hackathon 2025 (solución de IA para compras sostenibles Net Zero) y seleccionada por el banco como delegada para One Young World Summit.
+- Eventos de Alto Impacto: Dirección de la Semana de la Protección 2024 (+500 participantes y 10 ventas cerradas) y talleres Premier 3.0 para más de 400 personas con satisfacción de 5/6.
+
+## Trayectoria y Rotaciones en HSBC México (2024 - 2026)
+Programa: Global Graduate, International Wealth & Premier Banking
+
+1. **Product Owner – ComAmplifier (IA Generativa para HSBC Life)**
+   - Rol: Product Owner de solución global adaptada para Mobile Insurance Specialists y Business Development Managers.
+   - Responsabilidades: Roadmap funcional y técnico, investigación de usuarios, refinamiento de prompts funcionales, pruebas UAT con Champion Testers, mitigación de alucinaciones y omisiones, manuales de usuario y aprobaciones regulatorias (Compliance, Legal, Fraude, Riesgos).
+
+2. **Business Analysis & Product Discovery – IA Generativa (Innovation & Growth)**
+   - Rol: Business Analyst & Product Discovery Lead.
+   - Responsabilidades: Identificación de áreas operativas de alto impacto en banca y seguros; formulación de casos de negocio orientados a contact center e inversiones patrimoniales; diseño de KPIs y métricas de satisfacción; difusión de cultura de innovación (+1,300 colaboradores).
+
+3. **Go-to-Market & Transformación de Marca (HSBC Life, Seguros)**
+   - Rol: Especialista Go-to-Market.
+   - Responsabilidades: Liderazgo de la transición de marca de HSBC Seguros a HSBC Life en México; coordinación de sucursales, medios digitales y agencias; lanzamiento de nuevas coberturas para Vida y Ahorro Dotal (200 pólizas en el primer mes); dirección de la Semana de la Protección 2024 (+500 participantes, 32 cotizaciones y 10 cierres).
+
+4. **Gestión del Cambio & Chief of Staff (Premier 3.0)**
+   - Rol: Chief of Staff / Change Management.
+   - Responsabilidades: Alineación estratégica orientada a banca patrimonial (Wealth Management); preparación de materiales ejecutivos para comités directivos; facilitación de town halls y workshops para más de 400 colaboradores (Score 5/6).
+
+5. **Estrategia Comercial & Portabilidad de Nómina (Distribución)**
+   - Rol: Estratega de Canales y Desarrollo de Negocio.
+   - Responsabilidades: Benchmark competitivo del sistema financiero mexicano; detección de fricciones en ejecutivos de sucursal; propuesta de negocio para incorporar fuerza comercial externa (TPSA) orientada a portabilidad de nómina y venta cruzada con seguros.
+
+## Competencias Clave
+- Producto y Metodologías Ágiles: Product Discovery, User Stories, Backlog Refinement, Roadmap Planning, UAT, Scrum, Agile.
+- Estrategia y Negocio: Business Cases, ROI Analysis, Definición de KPIs, Benchmarking Competitivo, Customer Experience (CX), Mejora Continua.
+- Liderazgo y Gestión: Stakeholder Management, Gestión del Cambio (Change Management), Comunicación Ejecutiva, Coordinación de Equipos Multidisciplinarios.
+- Inteligencia Artificial y Tecnología: IA Generativa funcional, Prompt Engineering avanzado, Mitigación de Alucinaciones en LLMs, Transformación Digital, Microsoft 365, Google Workspace.
+
+## Educación y Certificaciones
+- Licenciatura en Comunicación: Facultad de Estudios Superiores Acatlán, UNAM (2019 - 2023).
+- Scrum Master: PMI / Udemy (2026).
+- Business Analysis Fundamentals: IIBA Endorsed / Udemy (2026).
+- Gen AI Project Management (2026).
+- AI Ambassador: HSBC University (2026).
+- Forward Learning: McKinsey & Company (2025).
+- TOEFL ITP (2024).

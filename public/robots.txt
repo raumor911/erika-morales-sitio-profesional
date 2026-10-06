@@ -1,0 +1,42 @@
+# robots.txt para https://erikamorales.rauviaweb.mx/
+# Optimizado para motores de búsqueda tradicionales y rastreadores de Inteligencia Artificial (GEO)
+
+User-agent: *
+Allow: /
+
+# Rastreadores principales de IA Generativa (Generative Engine Optimization - GEO)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: FacebookBot
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Cohere-ai
+Allow: /
+
+# Recursos para Modelos de Lenguaje (LLMs)
+Allow: /llms.txt
+
+# Mapa del sitio web
+Sitemap: https://erikamorales.rauviaweb.mx/sitemap.xml

@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F8F7F4" />
+      <stop offset="100%" stop-color="#EFECE6" />
+    </linearGradient>
+    <linearGradient id="boxGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#071126" />
+      <stop offset="100%" stop-color="#173B85" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="1200" height="630" fill="url(#bgGrad)" />
+
+  <!-- Perimeter Hairline Border -->
+  <rect x="40" y="40" width="1120" height="550" fill="none" stroke="#071126" stroke-opacity="0.08" stroke-width="1.5" />
+
+  <!-- Monogram Box (Top Left) -->
+  <g transform="translate(80, 80)">
+    <rect width="72" height="72" rx="4" fill="url(#boxGrad)" />
+    <text x="36" y="48" font-family="'Newsreader', Georgia, serif" font-size="36" font-weight="600" fill="#F8F7F4" text-anchor="middle">EM</text>
+  </g>
+
+  <!-- Kicker / Eyebrow -->
+  <text x="172" y="105" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="14" font-weight="700" fill="#A66A18" letter-spacing="3">DIRECCIÓN DE PRODUCTO / BANCA PATRIMONIAL / IA GENERATIVA</text>
+  <text x="172" y="132" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="16" font-weight="500" fill="#5A6478">HSBC México · International Wealth &amp; Premier Banking</text>
+
+  <!-- Hero Name -->
+  <text x="80" y="270" font-family="'Newsreader', Georgia, serif" font-size="82" font-weight="500" fill="#071126" letter-spacing="-1">Erika Paola Morales Domínguez</text>
+
+  <!-- Value Proposition Headline -->
+  <text x="80" y="345" font-family="'Newsreader', Georgia, serif" font-size="32" font-style="italic" fill="#173B85">
+    Product Owner especializada en la intersección entre transformación de negocio,
+  </text>
+  <text x="80" y="390" font-family="'Newsreader', Georgia, serif" font-size="32" font-style="italic" fill="#071126">
+    Inteligencia Artificial Generativa y banca institucional.
+  </text>
+
+  <!-- Divider Line -->
+  <line x1="80" y1="440" x2="1120" y2="440" stroke="#071126" stroke-opacity="0.1" stroke-width="1" />
+
+  <!-- Key Metrics Row -->
+  <g transform="translate(80, 470)">
+    <!-- Metric 1 -->
+    <text x="0" y="42" font-family="'Newsreader', Georgia, serif" font-size="44" font-weight="500" fill="#071126">+2.7M</text>
+    <text x="0" y="70" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="13" font-weight="600" fill="#5A6478">Clientes Asegurados</text>
+
+    <!-- Metric 2 -->
+    <text x="260" y="42" font-family="'Newsreader', Georgia, serif" font-size="44" font-weight="500" fill="#173B85">~90</text>
+    <text x="260" y="70" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="13" font-weight="600" fill="#5A6478">Asesores GenAI Piloto</text>
+
+    <!-- Metric 3 -->
+    <text x="520" y="42" font-family="'Newsreader', Georgia, serif" font-size="44" font-weight="500" fill="#071126">200</text>
+    <text x="520" y="70" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="13" font-weight="600" fill="#5A6478">Pólizas en Mes 1</text>
+
+    <!-- Metric 4 -->
+    <text x="740" y="42" font-family="'Newsreader', Georgia, serif" font-size="44" font-weight="500" fill="#A66A18">1er Lugar</text>
+    <text x="740" y="70" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="13" font-weight="600" fill="#5A6478">Hackathon Sostenibilidad</text>
+  </g>
+
+  <!-- Canonical URL (Bottom Right) -->
+  <text x="1120" y="555" font-family="'Plus Jakarta Sans', monospace, sans-serif" font-size="14" font-weight="600" fill="#173B85" text-anchor="end">erikamorales.rauviaweb.mx</text>
+</svg>
