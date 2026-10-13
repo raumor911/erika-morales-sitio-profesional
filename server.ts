@@ -1,6 +1,7 @@
 import express from 'express';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import fs from 'fs';
 import dotenv from 'dotenv';
 import { createServer as createViteServer } from 'vite';
 import { getDbHealthState, closeDbPool } from './src/server/db';
@@ -51,7 +52,16 @@ async function startServer() {
       appType: 'spa',
     });
 
+    // Strip trailing slashes for Vite internal assets in Trae preview
+    app.use((req, res, next) => {
+      if (req.path.startsWith('/@') && req.path.endsWith('/')) {
+        req.url = req.url.replace(/\/(\?.*)?$/, '$1');
+      }
+      next();
+    });
+
     app.use(vite.middlewares);
+
     console.log(`[Dev Server] Vite middleware mounted.`);
   } else {
     // Production mode: Serve static build assets from dist/

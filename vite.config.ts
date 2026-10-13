@@ -8,7 +8,7 @@ function staticRoutesPlugin(): Plugin {
   return {
     name: 'static-routes-plugin',
     closeBundle() {
-      const distDir = path.resolve(__dirname, 'dist');
+      const distDir = path.resolve(import.meta.dirname, 'dist');
       const indexHtmlPath = path.join(distDir, 'index.html');
       if (!fs.existsSync(indexHtmlPath)) return;
       const baseHtml = fs.readFileSync(indexHtmlPath, 'utf-8');
@@ -53,7 +53,7 @@ export default defineConfig(() => {
     plugins: [react(), tailwindcss(), staticRoutesPlugin()],
     resolve: {
       alias: {
-        '@': path.resolve(__dirname, '.'),
+        '@': path.resolve(import.meta.dirname, '.'),
       },
     },
     server: {
