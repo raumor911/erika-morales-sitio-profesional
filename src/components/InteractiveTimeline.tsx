@@ -54,8 +54,6 @@ export const InteractiveTimeline: React.FC = () => {
                 <span className="font-semibold text-[#071126]">HSBC México</span>
                 <span className="text-[#071126]/30" aria-hidden="true">·</span>
                 <span>Global Graduate, International Wealth & Premier Banking</span>
-                <span className="text-[#071126]/30" aria-hidden="true">·</span>
-                <span className="font-mono text-[#A66A18] font-semibold">2024 – 2026</span>
               </div>
             </div>
 
@@ -81,9 +79,6 @@ export const InteractiveTimeline: React.FC = () => {
                   <div className="flex items-baseline justify-between mb-1">
                     <span className="font-mono text-[11px] font-semibold text-[#A66A18]">
                       0{6 - stage.orderNumber}
-                    </span>
-                    <span className="font-mono text-[10px] text-[#5A6478]">
-                      {stage.period.split('–')[0].trim()}
                     </span>
                   </div>
                   <p className="text-xs font-semibold text-[#071126] group-hover:text-[#173B85] transition-colors duration-200 line-clamp-1">
@@ -117,11 +112,8 @@ export const InteractiveTimeline: React.FC = () => {
                     aria-hidden="true"
                   />
 
-                  {/* Columna Izquierda en Pantallas Grandes (Fechas y División) */}
+                  {/* Columna Izquierda en Pantallas Grandes (División) */}
                   <div className="hidden md:block absolute -left-44 top-1.5 text-right w-36 pr-4">
-                    <span className="font-mono text-xs font-semibold text-[#A66A18] block tracking-wide">
-                      {stage.period}
-                    </span>
                     <span className="text-[11px] text-[#5A6478] font-medium block mt-0.5">
                       Etapa 0{6 - stage.orderNumber}
                     </span>
@@ -133,11 +125,9 @@ export const InteractiveTimeline: React.FC = () => {
                   {/* Contenido Principal de la Rotación */}
                   <div>
                     
-                    {/* Encabezado Móvil de Fecha */}
+                    {/* Encabezado Móvil */}
                     <div className="md:hidden flex items-center gap-2 mb-1.5 text-xs font-mono font-semibold text-[#A66A18]">
                       <span>Etapa 0{6 - stage.orderNumber}</span>
-                      <span className="text-[#071126]/20" aria-hidden="true">·</span>
-                      <span>{stage.period}</span>
                     </div>
 
                     {/* Título de la Posición / Rol */}
