@@ -32,7 +32,7 @@ export const ImpactHighlights: React.FC = () => {
       tag: 'IA Generativa · Gestión de Producto',
       metric: '~90',
       metricLabel: 'Asesores comerciales y especialistas en seguros habilitados en piloto',
-      timeframe: '2024 – 2025',
+      timeframe: '2024 - 2025',
       organization: 'HSBC Life / Seguros',
       context:
         'La fuerza de ventas comercial (Mobile Insurance Specialists y BDMs) requería reducir drásticamente el tiempo dedicado al análisis manual de pólizas y preparación de citas comerciales con clientes de banca patrimonial, manteniendo estricto apego regulatorio.',
@@ -54,7 +54,7 @@ export const ImpactHighlights: React.FC = () => {
       tag: 'Transformación de Marca · Go-To-Market',
       metric: '+2.7M',
       metricLabel: 'Clientes asegurados en México con experiencia unificada de marca',
-      timeframe: '2024',
+      timeframe: '2025 - 2026',
       organization: 'Estrategia de Marca & Seguros',
       context:
         'Transición estratégica de la división de seguros de HSBC México hacia el ecosistema global de marca HSBC Life, demandando sincronización omnicanal sin interrumpir la operación comercial ni la atención al cliente.',
@@ -75,7 +75,7 @@ export const ImpactHighlights: React.FC = () => {
       tag: 'Crecimiento Comercial · Portfolio Launch',
       metric: '200',
       metricLabel: 'Pólizas de seguro colocadas durante el primer mes de salida al mercado',
-      timeframe: '2024',
+      timeframe: '2025 - 2026',
       organization: 'Lanzamiento Comercial & Sucursales',
       context:
         'Necesidad de dinamizar la colocación del producto estrella de ahorro y protección patrimonial en la red de sucursales mediante nuevas coberturas y una narrativa de venta consultiva para los ejecutivos bancarios.',
@@ -95,7 +95,7 @@ export const ImpactHighlights: React.FC = () => {
       title: 'Plataforma de Sostenibilidad con IA & Delegada One Young World',
       tag: 'Distinción Global · Innovación Verde',
       metric: '1er Lugar',
-      metricLabel: 'Nacional en HSBC Sustainability Hackathon 2025 y designación internacional',
+      metricLabel: 'Nacional en HSBC Sustainability Hackathon 2025 y designación One Young World',
       timeframe: '2025',
       organization: 'HSBC Global / Sostenibilidad',
       context:
@@ -117,7 +117,7 @@ export const ImpactHighlights: React.FC = () => {
       tag: 'Innovación & Estrategia · Cultura Digital',
       metric: '+1,300',
       metricLabel: 'Colaboradores alcanzados en cultura de innovación y casos de negocio',
-      timeframe: '2024 – 2025',
+      timeframe: '2025 - 2026',
       organization: 'Innovation & Growth',
       context:
         'Demanda por evaluar de forma metódica en qué canales operativos (contact centers, mesa de inversiones y seguros) la IA Generativa genera un retorno real sin comprometer la seguridad ni la satisfacción del cliente.',

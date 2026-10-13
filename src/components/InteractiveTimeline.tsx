@@ -17,6 +17,12 @@ export const InteractiveTimeline: React.FC = () => {
     [timelineStages[4].id]: false,
   });
 
+  const sortedStages = [...timelineStages].sort((a, b) => {
+    // We want descending order: highest orderNumber first (if we redefined orderNumber as recent -> old)
+    // Actually, I redefined orderNumber as 5 (recent) to 1 (old)
+    return b.orderNumber - a.orderNumber;
+  });
+
   const toggleDetails = (id: string) => {
     setExpandedDetails((prev) => ({
       ...prev,
@@ -66,7 +72,7 @@ export const InteractiveTimeline: React.FC = () => {
               Rotaciones del Programa Global Graduate
             </span>
             <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 divide-y sm:divide-y-0 sm:divide-x divide-[rgba(7,17,38,0.08)] border-y border-[rgba(7,17,38,0.08)] py-2 sm:py-0">
-              {timelineStages.map((stage) => (
+              {sortedStages.map((stage) => (
                 <a
                   key={stage.id}
                   href={`#${stage.id}`}
@@ -74,7 +80,7 @@ export const InteractiveTimeline: React.FC = () => {
                 >
                   <div className="flex items-baseline justify-between mb-1">
                     <span className="font-mono text-[11px] font-semibold text-[#A66A18]">
-                      0{stage.orderNumber}
+                      0{6 - stage.orderNumber}
                     </span>
                     <span className="font-mono text-[10px] text-[#5A6478]">
                       {stage.period.split('–')[0].trim()}
@@ -96,7 +102,7 @@ export const InteractiveTimeline: React.FC = () => {
         {/* LÍNEA DE TIEMPO EDITORIAL (CONTINUA & PROGRESIVA) */}
         {/* ======================================================== */}
         <div className="relative border-l border-[rgba(7,17,38,0.14)] ml-3 sm:ml-6 md:ml-40 space-y-12 sm:space-y-20">
-          {timelineStages.map((stage, idx) => {
+          {sortedStages.map((stage, idx) => {
             const isExpanded = expandedDetails[stage.id] ?? false;
 
             return (
@@ -117,7 +123,7 @@ export const InteractiveTimeline: React.FC = () => {
                       {stage.period}
                     </span>
                     <span className="text-[11px] text-[#5A6478] font-medium block mt-0.5">
-                      Etapa 0{stage.orderNumber}
+                      Etapa 0{6 - stage.orderNumber}
                     </span>
                     <span className="text-[10px] text-[#5A6478]/80 block mt-0.5">
                       {stage.organization}
@@ -129,7 +135,7 @@ export const InteractiveTimeline: React.FC = () => {
                     
                     {/* Encabezado Móvil de Fecha */}
                     <div className="md:hidden flex items-center gap-2 mb-1.5 text-xs font-mono font-semibold text-[#A66A18]">
-                      <span>Etapa 0{stage.orderNumber}</span>
+                      <span>Etapa 0{6 - stage.orderNumber}</span>
                       <span className="text-[#071126]/20" aria-hidden="true">·</span>
                       <span>{stage.period}</span>
                     </div>

@@ -117,7 +117,7 @@ export const impactMetrics: ImpactMetric[] = [
 export const timelineStages: TimelineStage[] = [
   {
     id: 'rotacion-com-amplifier',
-    orderNumber: 1,
+    orderNumber: 5,
     role: 'Product Owner – ComAmplifier (IA Generativa)',
     department: 'HSBC Life / Seguros',
     area: 'GenAI Commercial Application',
@@ -143,7 +143,7 @@ export const timelineStages: TimelineStage[] = [
   },
   {
     id: 'rotacion-innovation-growth',
-    orderNumber: 2,
+    orderNumber: 4,
     role: 'Business Analysis & Product Discovery – IA Generativa',
     department: 'Innovation & Growth',
     area: 'Discovery & Business Cases',
@@ -192,7 +192,7 @@ export const timelineStages: TimelineStage[] = [
   },
   {
     id: 'rotacion-premier-chief-of-staff',
-    orderNumber: 4,
+    orderNumber: 2,
     role: 'Gestión del Cambio y Comunicación Ejecutiva',
     department: 'Premier 3.0 / Chief of Staff',
     area: 'Wealth Management Strategic Alignment',
@@ -216,7 +216,7 @@ export const timelineStages: TimelineStage[] = [
   },
   {
     id: 'rotacion-distribucion-comercial',
-    orderNumber: 5,
+    orderNumber: 1,
     role: 'Estrategia Comercial & Portabilidad de Nómina',
     department: 'Distribución / Desarrollo de Negocio',
     area: 'Commercial Channels & Cross-Selling',
