@@ -32,7 +32,7 @@ export const ImpactHighlights: React.FC = () => {
       tag: 'IA Generativa · Gestión de Producto',
       metric: '~90',
       metricLabel: 'Asesores comerciales y especialistas en seguros habilitados en piloto',
-      timeframe: '2024 - 2025',
+      timeframe: '2025 - 2026',
       organization: 'HSBC Life / Seguros',
       context:
         'La fuerza de ventas comercial (Mobile Insurance Specialists y BDMs) requería reducir drásticamente el tiempo dedicado al análisis manual de pólizas y preparación de citas comerciales con clientes de banca patrimonial, manteniendo estricto apego regulatorio.',

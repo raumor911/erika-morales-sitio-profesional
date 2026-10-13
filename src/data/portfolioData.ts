@@ -35,7 +35,7 @@ export const impactMetrics: ImpactMetric[] = [
     category: 'ai',
     categoryLabel: 'IA Generativa',
     headlineMetric: '~90',
-    timeframe: 'HSBC Life · 2024 - 2025',
+    timeframe: 'HSBC Life · 2025 - 2026',
     summary: 'Implementación de solución global de IA Generativa para la fuerza de ventas de seguros en México.',
     detailedPoints: [
       'Preparación integral del piloto para ~90 usuarios comerciales (Mobile Insurance Specialists y BDMs).',
@@ -122,7 +122,7 @@ export const timelineStages: TimelineStage[] = [
     department: 'HSBC Life / Seguros',
     area: 'GenAI Commercial Application',
     organization: 'HSBC México',
-    period: '2024 – 2025',
+    period: '2025 – 2026',
     badgeColor: 'gold',
     focusSummary: 'Adaptación local de solución global de IA Generativa para la fuerza de ventas comercial (Mobile Insurance Specialists & BDMs).',
     description: 'Gestión de producto end-to-end de una herramienta de IA Generativa concebida a nivel corporativo y adaptada a las particularidades del mercado mexicano, normativas locales y perfiles de clientes de banca patrimonial.',
