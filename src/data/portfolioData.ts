@@ -102,7 +102,7 @@ export const impactMetrics: ImpactMetric[] = [
     category: 'ai',
     categoryLabel: 'Innovación & Estrategia',
     headlineMetric: '+1,300',
-    timeframe: 'Innovation & Growth · 2025 - 2026',
+    timeframe: 'Innovation & Growth · 2025',
     summary: 'Estructuración de casos de negocio en Contact Center, Inversiones y Seguros, traduciendo necesidades en ROI.',
     detailedPoints: [
       'Evaluación de factibilidad tecnológica y casos de retorno de inversión para contact center y asesoría patrimonial.',

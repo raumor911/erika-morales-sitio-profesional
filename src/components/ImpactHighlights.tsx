@@ -117,7 +117,7 @@ export const ImpactHighlights: React.FC = () => {
       tag: 'Innovación & Estrategia · Cultura Digital',
       metric: '+1,300',
       metricLabel: 'Colaboradores alcanzados en cultura de innovación y casos de negocio',
-      timeframe: '2025 - 2026',
+      timeframe: '2025',
       organization: 'Innovation & Growth',
       context:
         'Demanda por evaluar de forma metódica en qué canales operativos (contact centers, mesa de inversiones y seguros) la IA Generativa genera un retorno real sin comprometer la seguridad ni la satisfacción del cliente.',
